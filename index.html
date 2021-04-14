@@ -53,8 +53,11 @@
 	<body>	
 		<div class="gridContainer todo">
 			<div class="todo-app">
-				<div class="todo-app__title bold txt-xxl-size">TODOs</div>
-				<span class="s_10"></span>
+				<div class="todo-app__title bold txt-xxl-size">
+					<span>TODOs</span>	 
+					<button onclick="deleteAllTasks()">Delete all</button>
+				</div>
+				<span class="s_20"></span>
 				<div class="todo-app__container">
 					<div class="__input"> 
 						<input id="add_todo" type="text" placeholder="Add a TODO...">
